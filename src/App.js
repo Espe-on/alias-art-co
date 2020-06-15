@@ -1,11 +1,13 @@
 import React from 'react';
 
-import './App.css';
+import HomePage from "./homepage.component";
+
+import './App.scss';
 
 function App() {
   return (
     <div>
-      Hello World, this is alias-art-co
+     <HomePage/>
     </div>
   );
 }
