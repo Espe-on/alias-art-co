@@ -13,29 +13,34 @@ class Directory extends React.Component {
                 {
                     id: 1,
                     title: 'Artwork',
-                    imageUrl: 'https://i.ibb.co/WHPKYWH/original-artwork.jpg'
+                    imageUrl: 'https://i.ibb.co/WHPKYWH/original-artwork.jpg',
+                    linkUrl: 'artwork'
                 },
                 {
                     id: 2,
                     title: 'Prints',
-                    imageUrl: 'https://i.ibb.co/MSMRCqH/prints.jpg'
+                    imageUrl: 'https://i.ibb.co/MSMRCqH/prints.jpg',
+                    linkUrl: 'prints'
                 },
                 {
                     id: 3,
                     title: 'Cards',
-                    imageUrl: 'https://i.ibb.co/DLp16MQ/postcards.jpg'
+                    imageUrl: 'https://i.ibb.co/DLp16MQ/postcards.jpg',
+                    linkUrl: 'cards'
                 },
                 {
                     id: 4,
                     title: 'Pins',
                     size : 'large',
-                    imageUrl: 'https://i.ibb.co/HNywBjq/pins.jpg'
+                    imageUrl: 'https://i.ibb.co/HNywBjq/pins.jpg',
+                    linkUrl: 'pins'
                 },
                 {
                     id: 5,
                     title: 'T-Shirts',
                     size : 'large',
-                    imageUrl: 'https://i.ibb.co/LRLXDgp/tshirts.jpg'
+                    imageUrl: 'https://i.ibb.co/LRLXDgp/tshirts.jpg',
+                    linkUrl: 'tshirts'
                 }
             ]
         }
@@ -45,11 +50,8 @@ class Directory extends React.Component {
         return (
             <div className="directory-menu">
                 {
-                    this.state.sections.map(({id, title, size, imageUrl}) => (
-                        <MenuItem key={id}
-                                  title={title}
-                                  size={size}
-                                  imageUrl={imageUrl}/>
+                    this.state.sections.map(({id, ...otherSectionProps}) => (
+                        <MenuItem key={id} {...otherSectionProps}/>
                     ))
                 }
             </div>
