@@ -38,81 +38,81 @@
     },
     {
         id: 2,
-        title: "Prints",
-        routeName: "prints",
-        items: [
-            {
-                id: 6,
-                name: "Abstract Poster",
-                imageUrl: "https://i.ibb.co/rxQSxwF/abstract-poster.jpg",
-                price: 40
-            },
-            {
-                id: 7,
-                name: "Nature Poster",
-                imageUrl: "https://i.ibb.co/VWKcLvD/nature-poster.jpg",
-                price: 40
-            },
-            {
-                id: 8,
-                name: "Pre-Raphaelite Poster",
-                imageUrl: "https://i.ibb.co/t8yRHR0/preraphaelite-poster.jpg",
-                price: 40
-            },
-            {
-                id: 9,
-                name: "Rococo Poster",
-                imageUrl: "https://i.ibb.co/7NyP4h4/rococo-poster.jpg",
-                price: 40
-            },
-            {
-                id: 10,
-                name: "Still Life Poster",
-                imageUrl: "https://i.ibb.co/C7yByf5/stilllife-poster.jpg",
-                price: 40
-            },
-        ]
-    },
-    {
-        id: 3,
         title: "Cards",
         routeName: "cards",
         items: [
             {
-                id: 11,
+                id: 6,
                 name: "Vintage Alaska Postcard",
                 imageUrl: "https://i.ibb.co/brHPvrF/alaska.jpg",
                 price: 2
             },
             {
-                id: 12,
+                id: 7,
                 name: "Vintage Hawaii Postcard",
                 imageUrl: "https://i.ibb.co/M96ZZYC/hawaii.jpg",
                 price: 2
             },
             {
-                id: 13,
+                id: 8,
                 name: "Vintage Key West Postcard",
                 imageUrl: "https://i.ibb.co/BGhLSQc/keywest.jpg",
                 price: 2
             },
             {
-                id: 14,
+                id: 9,
                 name: "Vintage Los Angeles Postcard",
                 imageUrl: "https://i.ibb.co/7Ys3fKm/losangeles.jpg",
                 price: 2
             },
             {
-                id: 15,
+                id: 10,
                 name: "Vintage New York Postcard",
                 imageUrl: "https://i.ibb.co/hZ3X9Tn/newyork.jpg",
                 price: 2
             },
             {
-                id: 16,
+                id: 11,
                 name: "Vintage Vermont Postcard",
                 imageUrl: "https://i.ibb.co/PsH2fRL/vermont.jpg",
                 price: 2
+            },
+        ]
+    },
+    {
+        id: 3,
+        title: "Prints",
+        routeName: "prints",
+        items: [
+            {
+                id: 12,
+                name: "Abstract Poster",
+                imageUrl: "https://i.ibb.co/rxQSxwF/abstract-poster.jpg",
+                price: 40
+            },
+            {
+                id: 13,
+                name: "Nature Poster",
+                imageUrl: "https://i.ibb.co/VWKcLvD/nature-poster.jpg",
+                price: 40
+            },
+            {
+                id: 14,
+                name: "Pre-Raphaelite Poster",
+                imageUrl: "https://i.ibb.co/t8yRHR0/preraphaelite-poster.jpg",
+                price: 40
+            },
+            {
+                id: 15,
+                name: "Rococo Poster",
+                imageUrl: "https://i.ibb.co/7NyP4h4/rococo-poster.jpg",
+                price: 40
+            },
+            {
+                id: 16,
+                name: "Still Life Poster",
+                imageUrl: "https://i.ibb.co/C7yByf5/stilllife-poster.jpg",
+                price: 40
             },
         ]
     },
