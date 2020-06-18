@@ -1,6 +1,18 @@
-.sign-in-and-sign-up {
+.sign-in-and-sign-up{
   width: 850px;
   display: flex;
-  justify-content: space-between;
-  margin: 30px auto;
+  &.sign-in-and-sign-up-form {
+    margin: 30px;
+    justify-content: space-between;
+  }
+  &.is-signed-in{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    .signed-in-user{
+      margin-bottom: 10px;
+    }
+  }
 }
+
+
