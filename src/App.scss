@@ -1,3 +1,5 @@
+@import "sitecolors";
+
 body {
   font-family: 'Rambla', sans-serif;
   padding: 20px 60px;
@@ -5,7 +7,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: $alt-color;
 }
 
 * {

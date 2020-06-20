@@ -1,4 +1,6 @@
-﻿.menu-item {
+﻿@import "../../sitecolors";
+
+.menu-item {
   min-width: 30%;
   height: 240px;
   flex: 1 1 auto;
@@ -18,14 +20,14 @@
     }
 
     & .content {
-      opacity: 0.9;
+      opacity: 0.99;
     }
   }
-  
+
   &.large {
     height: 380px;
   }
-  
+
   &:first-child {
     margin-right: 7.5px;
   }
@@ -47,21 +49,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    background-color: white;
-    opacity: 0.7;
+    border: 1px solid $alt-color;
+    background-color: $background-color;
+    opacity: 0.8;
     position: absolute;
 
     .title {
       font-weight: bold;
       margin-bottom: 6px;
       font-size: 22px;
-      color: #4a4a4a;
+      color: $main-color;
     }
 
     .subtitle {
       font-weight: lighter;
       font-size: 16px;
+      color: $alt-color;
     }
   }
 }
