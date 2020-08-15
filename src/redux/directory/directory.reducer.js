@@ -4,33 +4,33 @@
             id: 1,
             title: 'Artwork',
             imageUrl: 'https://i.ibb.co/WHPKYWH/original-artwork.jpg',
-            linkUrl: 'artwork'
+            linkUrl: 'shop/artwork'
         },
         {
             id: 2,
             title: 'Prints',
             imageUrl: 'https://i.ibb.co/MSMRCqH/prints.jpg',
-            linkUrl: 'prints'
+            linkUrl: 'shop/prints'
         },
         {
             id: 3,
             title: 'Cards',
             imageUrl: 'https://i.ibb.co/DLp16MQ/postcards.jpg',
-            linkUrl: 'cards'
+            linkUrl: 'shop/cards'
         },
         {
             id: 4,
             title: 'Pins',
             size : 'large',
             imageUrl: 'https://i.ibb.co/HNywBjq/pins.jpg',
-            linkUrl: 'pins'
+            linkUrl: 'shop/pins'
         },
         {
             id: 5,
             title: 'T-Shirts',
             size : 'large',
             imageUrl: 'https://i.ibb.co/LRLXDgp/tshirts.jpg',
-            linkUrl: 'tshirts'
+            linkUrl: 'shop/tshirts'
         }
     ]
 };
