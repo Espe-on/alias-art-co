@@ -1,5 +1,5 @@
 ﻿const SHOP_DATA = {
-    hats: {
+    artwork: {
         id: 1,
         title: "Artwork",
         routeName: "artwork",
