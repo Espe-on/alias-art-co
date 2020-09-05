@@ -3,6 +3,8 @@
 body {
   font-family: 'Rambla', sans-serif;
   padding: 20px 60px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
