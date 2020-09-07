@@ -4,7 +4,7 @@ import {ReactComponent} from "../../assets/logo.svg";
 
 import {siteColors} from "../../sitecolors.styles";
 
-const {main: {primary}} = siteColors;
+const {main: {primary, alt}} = siteColors;
 
 export const HeaderContainer = styled.div`
   height: 70px;
@@ -12,12 +12,16 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  text-decoration: none;
+ 
 `;
 
 export const LogoContainer = styled(Link)`
     height: 100%;
     width: 70px;
     margin-left: 50px;
+    color: ${alt};
+
 `;
 
 export const Logo = styled(ReactComponent)`
@@ -31,11 +35,15 @@ export const OptionsContainer = styled.div`
     align-items: center;
     justify-content: flex-end;
     font: ${primary};
+    text-decoration: none;
+
 `;
 
 export const OptionLink = styled(Link)`
       padding: 10px 15px;
       cursor: pointer;
+      color: ${alt};
+      text-decoration: none;
      `;
 
 

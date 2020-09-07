@@ -3,7 +3,7 @@ import {Route, Switch, Redirect} from 'react-router-dom';
 import {connect} from "react-redux";
 import {createStructuredSelector} from "reselect";
 
-import './App.scss';
+import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
@@ -39,7 +39,8 @@ class App extends React.Component {
 
     componentWillUnmount() {
         this.unsubscribeFromAuth();
-    }
+    };
+
 
     render() {
         return (

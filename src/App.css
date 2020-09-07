@@ -1,15 +1,14 @@
-@import "sitecolors";
-
 body {
   font-family: 'Rambla', sans-serif;
   padding: 20px 60px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #FFF9F1;
 }
 
 a {
   text-decoration: none;
-  color: $alt-color;
+  color: #4B3B2F;
 }
 
 * {

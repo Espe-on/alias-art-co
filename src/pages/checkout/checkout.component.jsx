@@ -7,35 +7,41 @@ import StripeCheckoutButton from "../../components/stripe-button/stripe-button.c
 
 import {selectCartItems, selectCartTotal} from "../../redux/cart/cart.selectors";
 
-import "./checkout.styles.scss"
+import {
+    CheckoutPageContainer,
+    CheckoutHeaderContainer,
+    HeaderBlockContainer,
+    TotalContainer,
+    WarningContainer
+} from './checkout.styles';
 
 const CheckoutPage = ({cartItems, total}) => (
-    <div className="checkout-page">
-        <div className="checkout-header">
-            <div className="header-block">
+    <CheckoutPageContainer >
+        <CheckoutHeaderContainer>
+            <HeaderBlockContainer>
                 <span>Product</span>
-            </div>
-            <div className="header-block">
+            </HeaderBlockContainer>
+            <HeaderBlockContainer>
                 <span>Description</span>
-            </div>
-            <div className="header-block">
+            </HeaderBlockContainer>
+            <HeaderBlockContainer>
                 <span>Quantity</span>
-            </div>
-            <div className="header-block">
+            </HeaderBlockContainer>
+            <HeaderBlockContainer>
                 <span>Price</span>
-            </div>
-            <div className="header-block">
+            </HeaderBlockContainer>
+            <HeaderBlockContainer>
                 <span>Remove</span>
-            </div>
-        </div>
+            </HeaderBlockContainer>
+        </CheckoutHeaderContainer>
         {
             cartItems.map(cartItem =>
             <CheckoutItem key={cartItem.id} cartItem={cartItem}/>)
         }
-        <div className="total">
+        <TotalContainer>
             <span>Total: £{total}</span>
-        </div>
-        <div className="test-warning">
+        </TotalContainer>
+        <WarningContainer>
             *Please use the following test card for test payment*
             <br/>
             Card number: 4242 4242 4242 4242
@@ -43,9 +49,9 @@ const CheckoutPage = ({cartItems, total}) => (
             Expiry Date: 01/21
             <br/>
             CVC: 123
-        </div>
+        </WarningContainer>
         <StripeCheckoutButton price={total}/>
-    </div>
+    </CheckoutPageContainer>
 );
 
 const mapStateToProps= createStructuredSelector({
