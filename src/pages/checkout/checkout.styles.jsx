@@ -11,6 +11,7 @@ export const CheckoutPageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 50px auto 0;
+  color: ${main.alt}
   button {
     margin-left: auto;
     margin-top: 50px;
