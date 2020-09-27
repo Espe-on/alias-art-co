@@ -1,3 +1,9 @@
+# Alias Art Co
+An portfolio piece building an e-commerce site built with React, Redux, Firebase, and Styled Components
+
+[Deployed here](https://alias-art-co.josephcrawley.dev/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
