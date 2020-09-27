@@ -6,7 +6,7 @@ import {firestore, convertCollectionsSnapshotToMap} from "../../firebase/firebas
 
 import {updateCollections} from "../../redux/shop/shop.actions";
 
-import WithSpinner from "../../components/withSpinner/withSpinner.component";
+import WithSpinner from "../../components/with-spinner/withSpinner.component";
 import CollectionsOverview from "../../components/collections-overview/collections-overview.component";
 import CollectionPage from "../collection/collection.component";
 
