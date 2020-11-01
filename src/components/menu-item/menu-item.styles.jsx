@@ -1,10 +1,11 @@
 import styled from "styled-components";
-import {siteColors} from "../../global.styles";
+import {siteColors, siteSizes} from "../../global.styles";
 
-const {main: {alt,background}} = siteColors;
+const {main: {alt, background}} = siteColors;
+const {width: {mobile}} = siteSizes;
 
 export const MenuItemContainer = styled.div`
-	height: ${({ size }) => (size ? '380px' : '240px')};
+	height: ${({size}) => (size ? '380px' : '240px')};
 	min-width: 30%;
 	overflow: hidden;
 	flex: 1 1 auto;
@@ -30,14 +31,17 @@ export const MenuItemContainer = styled.div`
   &:last-child {
     margin-left: 7.5px;
   }
+  @media screen and (max-width: ${mobile}) {
+        height: 200px;
+      }
 `;
 
 export const BackgroundImageContainer = styled.div`
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+background-image: ${({imageUrl}) => `url(${imageUrl})`};
 `;
 
 export const ContentContainer = styled.div`

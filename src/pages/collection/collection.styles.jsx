@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-import {siteColors} from "../../global.styles";
+import {siteColors, siteSizes} from "../../global.styles";
 
-const {main} = siteColors
+const {main} = siteColors;
+const {width:{mobile}} = siteSizes;
 
 export const CollectionPageContainer = styled.div`
   display: flex;
@@ -22,4 +23,9 @@ export const CollectionItemsContainer = styled.div`
   & > div {
     margin-bottom: 30px;
   }
+  @media screen and (max-width: ${mobile}) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px
+      }
 `;

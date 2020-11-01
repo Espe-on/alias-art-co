@@ -12,6 +12,13 @@ export const siteColors = {
     }
 }
 
+export const siteSizes = {
+    width: {
+        mobile : "800px"
+    }
+
+}
+
 export const GlobalStyle = createGlobalStyle`
     body {
       font-family: 'Rambla', sans-serif;
@@ -19,6 +26,10 @@ export const GlobalStyle = createGlobalStyle`
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       background: #FFF9F1;
+      
+      @media screen and (max-width: ${siteSizes.width.mobile}) {
+        padding: 10px;
+      }
     }
     
     a {
