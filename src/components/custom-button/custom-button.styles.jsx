@@ -1,6 +1,6 @@
 import styled, {css} from "styled-components";
 
-import {siteColors} from "../../sitecolors.styles";
+import {siteColors} from "../../global.styles";
 
 const {main, highlights} = siteColors;
 

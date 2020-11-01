@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {siteColors} from "../../sitecolors.styles";
+import {siteColors} from "../../global.styles";
 
 const {main: {alt,background}} = siteColors;
 

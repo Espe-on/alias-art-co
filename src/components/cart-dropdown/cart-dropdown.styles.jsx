@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import CustomButton from '../custom-button/custom-button.component';
-import {siteColors} from "../../sitecolors.styles";
+import {siteColors} from "../../global.styles";
 
 const {main, highlights} = siteColors;
 

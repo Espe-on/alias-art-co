@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import {siteColors} from "../../sitecolors.styles";
+import {siteColors} from "../../global.styles";
 
 const subColor = siteColors.main.alt;
 const mainColor = siteColors.main.primary;

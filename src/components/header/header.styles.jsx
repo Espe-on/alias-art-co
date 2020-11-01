@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Link} from "react-router-dom";
 import {ReactComponent} from "../../assets/logo.svg";
 
-import {siteColors} from "../../sitecolors.styles";
+import {siteColors} from "../../global.styles";
 
 const {main: {primary, alt}} = siteColors;
 
